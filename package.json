@@ -1,0 +1,24 @@
+{
+  "name": "braspag-api",
+  "version": "1.0.0",
+  "description": "API Rest para retornar o valor líquido a ser recebido por um lojista em uma transação de pagamento via e-commerce",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Node"
+  ],
+  "author": "Magdiel Fausto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
